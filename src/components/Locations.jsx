@@ -41,7 +41,7 @@ function Locations() {
                 <section className="">
                     {loadingLocationDetail ? (
                         <div>
-                            <img src="/icon-rym.svg" alt="rick and morty oficial" className='animate-pulse' />
+                            <img src="/rym-oficial.png" alt="rick and morty oficial" className='animate-pulse' />
                             <h2 className="text-center text-xl">Please select a location...</h2>
                         </div>
                     ) : (
@@ -62,7 +62,7 @@ function Locations() {
                                 ) : (
                                     <div>
                                         <h2 className="text-center text-xl my-5 border p-2 rounded border-lime-300 animate-jump-in">There are no residents in this location...</h2>
-                                        <img src="./morty-running.png" alt="morty-running" className="drop-shadow-xl h-48 m-auto" />
+                                        <img src="/mortyrunning.png" alt="morty-running" className="drop-shadow-xl h-48 m-auto" />
                                     </div>
                                 )}
                             </>
