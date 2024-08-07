@@ -40,7 +40,7 @@ function Episodes() {
                 <section>
                     {loadingEpisodeDetail ? (
                         <div>
-                            <img src="/icon-rym.svg" alt="rick and morty oficial" className='animate-pulse' />
+                            <img src="/react-rick-and-morty/icon-rym.svg" alt="rick and morty oficial" className='animate-pulse' />
                             <h2 className="text-center text-xl">Please select a episode...</h2>
                         </div>
                     ) : (
@@ -61,7 +61,7 @@ function Episodes() {
                                 ) : (
                                     <div>
                                         <h2 className="text-center text-xl my-5 border p-2 rounded border-lime-300 animate-jump-in">There are no characters in this episode...</h2>
-                                        <img src="./morty-running.png" alt="morty-running" className="drop-shadow-xl h-48 m-auto" />
+                                        <img src="/react-rick-and-morty/mortyrunning.png" alt="morty-running" className="drop-shadow-xl h-48 m-auto" />
                                     </div>
                                 )}
                             </>

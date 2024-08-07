@@ -41,7 +41,7 @@ function Locations() {
                 <section className="">
                     {loadingLocationDetail ? (
                         <div>
-                            <img src="/react-rick-and-morty/rym-oficial.png" alt="rick and morty oficial" className='animate-pulse' />
+                            <img src="/react-rick-and-morty/icon-rym.svg" alt="rick and morty oficial" className='animate-pulse' />
                             <h2 className="text-center text-xl">Please select a location...</h2>
                         </div>
                     ) : (
